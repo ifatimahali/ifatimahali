@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Blog Website{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Blog Website</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'blog:index' %}">Home</a></li>
+                <li><a href="{% url 'blog:users' %}">Users</a></li>
+                <li><a href="{% url 'blog:blogs' %}">Blogs</a></li>
+                <li><a href="{% url 'blog:comments' %}">Comments</a></li>
+                <li><a href="{% url 'blog:categories' %}">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2023 Blog Fatimah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
