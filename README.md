@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Fatimah Hakami</h1>
-<h3 align="center">I am Front-end Developer</h3>
+<h3 align="center">I am web Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ifatimahali&label=Profile%20views&color=0e75b6&style=flat" alt="ifatimahali" /> </p>
 
